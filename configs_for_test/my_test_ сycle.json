@@ -1,0 +1,68 @@
+{
+  "A": {
+    "name": "A",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {
+          "B": "^1.0.0",
+          "C": "^1.0.0"
+        }
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  },
+  "B": {
+    "name": "B",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {
+          "D": "^1.0.0"
+        }
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  },
+  "C": {
+    "name": "C",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {
+          "E": "^1.0.0"
+        }
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  },
+  "D": {
+    "name": "D",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {
+          "A": "^1.0.0"
+        }
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  },
+  "E": {
+    "name": "E",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {
+          "F": "^1.0.0",
+          "B": "^1.0.0"
+        }
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  },
+  "F": {
+    "name": "F",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {}
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  }
+}

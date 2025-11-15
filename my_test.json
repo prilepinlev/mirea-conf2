@@ -1,0 +1,54 @@
+{
+  "REACT": {
+    "name": "REACT",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {
+          "BABEL": "^1.0.0",
+          "WEBPACK": "^1.0.0"
+        }
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  },
+  "BABEL": {
+    "name": "BABEL",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {
+          "PLUGIN-A": "^1.0.0"
+        }
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  },
+  "WEBPACK": {
+    "name": "WEBPACK",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {
+          "LOADER": "^1.0.0"
+        }
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  },
+  "PLUGIN-A": {
+    "name": "PLUGIN-A",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {}
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  },
+  "LOADER": {
+    "name": "LOADER",
+    "versions": {
+      "1.0.0": {
+        "dependencies": {}
+      }
+    },
+    "dist-tags": {"latest": "1.0.0"}
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "package_name": "REACT",
+    "repository_url": "my_test.json",
+    "test_repository_mode": true,
+    "version": "latest",
+    "filter_substring": ""
+}

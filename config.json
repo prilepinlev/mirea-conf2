@@ -1,0 +1,7 @@
+{
+    "package_name": "axios",
+    "repository_url": "https://registry.npmjs.org/",
+    "test_repository_mode": false,
+    "version": "latest",
+    "filter_substring": ""
+}
